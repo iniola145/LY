@@ -10,3 +10,8 @@
 .swiper-pagination-bullet-active {
   background: white!important;
 }
+
+/* font family montssarat for text */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
