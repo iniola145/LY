@@ -38,3 +38,11 @@ const nav_bar = document.querySelector(".wrap-nav")
 window.addEventListener("scroll", () => {
     this.scrollY > 150 ? nav_bar.classList.add("new") : nav_bar.classList.remove("new")
 })
+
+// JavaScript to toggle the mobile menu 
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    hamburger.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });

@@ -11,15 +11,24 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <nav class="wrap-nav bg-[#13A2D1] text-white hidden md:block">
-        <div class="container mx-auto px-4 flex flex-col lg:flex-row justify-between items-center py-3">
-            <div class="text-xl font-bold mb-4 lg:mb-0">
-                <!-- Logo Placeholder -->
-                <span><img src="/assets/lymainlogo.png" alt="logo" class="object-cover w-52 md:h-auto"></span>
+    <!-- Navbar -->
+    <nav class="bg-[#13A2D1] text-white wrap-nav">
+        <div class="container mx-auto px-4 flex justify-between items-center py-3">
+            <!-- Logo -->
+            <div class="text-xl font-bold">
+                <span><img src="/assets/lymainlogo.png" alt="logo" class="object-cover w-40 md:w-52 h-auto"></span>
             </div>
-            <nav>
-                <ul class="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-8">
+
+            <!-- Hamburger Menu (For small/medium screens) -->
+            <div class="md:hidden">
+                <button id="hamburger" class="text-white focus:outline-none">
+                    <i class="bx bx-menu text-4xl"></i>
+                </button>
+            </div>
+
+            <!-- Nav Links (Hidden on small screens, visible on medium and larger screens) -->
+            <div class="hidden md:flex">
+                <ul class="flex space-x-4 lg:space-x-8">
                     <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
                     <li><a href="about.html" class="hover:text-gray-300">About</a></li>
                     <li><a href="#" class="hover:text-gray-300">Read for Freedom</a></li>
@@ -28,7 +37,20 @@
                     <li><a href="#" class="hover:text-gray-300">Activities</a></li>
                     <li><a href="#" class="hover:text-gray-300">Contact</a></li>
                 </ul>
-            </nav>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Visible on small screens) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[#13A2D1]">
+            <ul class="flex flex-col space-y-4 p-4">
+                <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+                <li><a href="#" class="hover:text-gray-300">Read for Freedom</a></li>
+                <li><a href="#" class="hover:text-gray-300">LY Mission Help</a></li>
+                <li><a href="#" class="hover:text-gray-300">LY Showcase</a></li>
+                <li><a href="#" class="hover:text-gray-300">Activities</a></li>
+                <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+            </ul>
         </div>
     </nav>
 
@@ -53,28 +75,36 @@
                     YOUNGSTERS</span> VISION</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 p-5 md:p-10 gap-5 md:gap-10 text-center">
-            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia molestias
+            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia
+                molestias
                 saepe iste quia consectetur adipisci, laboriosam cumque molestiae magnam aperiam aspernatur, voluptatem
                 fugiat? Quas optio incidunt unde eligendi?</p>
-            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia molestias
+            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia
+                molestias
                 saepe iste quia consectetur adipisci, laboriosam cumque molestiae magnam aperiam aspernatur, voluptatem
                 fugiat? Quas optio incidunt unde eligendi?</p>
-            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia molestias
+            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia
+                molestias
                 saepe iste quia consectetur adipisci, laboriosam cumque molestiae magnam aperiam aspernatur, voluptatem
                 fugiat? Quas optio incidunt unde eligendi?</p>
-            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia molestias
+            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia
+                molestias
                 saepe iste quia consectetur adipisci, laboriosam cumque molestiae magnam aperiam aspernatur, voluptatem
                 fugiat? Quas optio incidunt unde eligendi?</p>
-            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia molestias
+            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia
+                molestias
                 saepe iste quia consectetur adipisci, laboriosam cumque molestiae magnam aperiam aspernatur, voluptatem
                 fugiat? Quas optio incidunt unde eligendi?</p>
-            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia molestias
+            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia
+                molestias
                 saepe iste quia consectetur adipisci, laboriosam cumque molestiae magnam aperiam aspernatur, voluptatem
                 fugiat? Quas optio incidunt unde eligendi?</p>
-            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia molestias
+            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia
+                molestias
                 saepe iste quia consectetur adipisci, laboriosam cumque molestiae magnam aperiam aspernatur, voluptatem
                 fugiat? Quas optio incidunt unde eligendi?</p>
-            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia molestias
+            <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo mollitia
+                molestias
                 saepe iste quia consectetur adipisci, laboriosam cumque molestiae magnam aperiam aspernatur, voluptatem
                 fugiat? Quas optio incidunt unde eligendi?</p>
         </div>
@@ -82,46 +112,49 @@
             <p>I CAN'T WAIT TO HAVE YOU ON BOARD</p>
             <p>MOSIMILEOLUWA</p>
         </div>
-    </section>    
+    </section>
 
-<!-- Star section -->
-<section class="bg-[#13A2D1] text-white">
-    <div class="container mx-auto py-12">
-        <h1 class="text-3xl md:text-4xl font-bold text-center mb-8">CORE VALUES</h1>
-        <div class="flex flex-col md:flex-row justify-around items-center md:space-x-6">
-            <!-- Star 1 -->
-            <div
-                class="text-center bg-[url('./assets/star1.png')] relative w-[95vw] md:w-[35vw] h-[70vh] md:h-[70vh] bg-contain bg-center bg-no-repeat mb-8 md:mb-0">
+    <!-- Star section -->
+    <section class="bg-[#13A2D1] text-white">
+        <div class="container mx-auto py-12">
+            <h1 class="text-3xl md:text-4xl font-bold text-center mb-8">CORE VALUES</h1>
+            <div class="flex flex-col md:flex-row justify-around items-center md:space-x-6">
+                <!-- Star 1 -->
                 <div
-                    class="text-black flex items-center flex-col absolute justify-center mx-auto top-[4%] md:top-[7%] left-[20%] w-[60%] h-full">
-                    <p class="text-lg md:text-xl font-semibold mb-3"><span class="text-[#13A2D1]">Love</span> is our <span
-                            class="text-[#13A2D1]">Identity</span></p>
-                    <p class="font-normal w-[70%] text-sm md:text-base">We have received Christ's nature of love.</p>
+                    class="text-center bg-[url('./assets/star1.png')] relative w-[95vw] md:w-[35vw] h-[70vh] md:h-[70vh] bg-contain bg-center bg-no-repeat mb-8 md:mb-0">
+                    <div
+                        class="text-black flex items-center flex-col absolute justify-center mx-auto top-[4%] md:top-[7%] left-[20%] w-[60%] h-full">
+                        <p class="text-lg md:text-xl font-semibold mb-3"><span class="text-[#13A2D1]">Love</span> is our
+                            <span class="text-[#13A2D1]">Identity</span></p>
+                        <p class="font-normal w-[70%] text-sm md:text-base">We have received Christ's nature of love.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <!-- Star 2 -->
-            <div
-                class="text-center bg-[url('./assets/star1.png')] relative w-[95vw] md:w-[35vw] h-[70vh] md:h-[70vh] bg-contain bg-center bg-no-repeat mb-8 md:mb-0">
+                <!-- Star 2 -->
                 <div
-                    class="text-black flex items-center flex-col absolute justify-center mx-auto top-[4%] md:top-[7%] left-[20%] w-[60%] h-full">
-                    <p class="text-lg md:text-xl font-semibold"><span class="text-[#13A2D1]">We</span> are<span
-                            class="text-[#13A2D1]"> made</span> to <span class="text-[#13A2D1]">love</span></p>
-                    <p class="font-normal w-[70%] text-sm md:text-base">We pour out the love of Christ in our hearts to the world.</p>
+                    class="text-center bg-[url('./assets/star1.png')] relative w-[95vw] md:w-[35vw] h-[70vh] md:h-[70vh] bg-contain bg-center bg-no-repeat mb-8 md:mb-0">
+                    <div
+                        class="text-black flex items-center flex-col absolute justify-center mx-auto top-[4%] md:top-[7%] left-[20%] w-[60%] h-full">
+                        <p class="text-lg md:text-xl font-semibold"><span class="text-[#13A2D1]">We</span> are<span
+                                class="text-[#13A2D1]"> made</span> to <span class="text-[#13A2D1]">love</span></p>
+                        <p class="font-normal w-[70%] text-sm md:text-base">We pour out the love of Christ in our hearts
+                            to the world.</p>
+                    </div>
                 </div>
-            </div>
-            <!-- Star 3 -->
-            <div
-                class="text-center bg-[url('./assets/star1.png')] relative w-[95vw] md:w-[35vw] h-[70vh] md:h-[70vh] bg-contain bg-center bg-no-repeat">
+                <!-- Star 3 -->
                 <div
-                    class="text-black flex items-center flex-col absolute justify-center mx-auto top-[5%] md:top-[7%] left-[20%] w-[60%] h-full">
-                    <p class="text-lg md:text-xl font-semibold"><span class="text-[#13A2D1]">Love</span> binds us as a <span
-                            class="text-[#13A2D1]">family</span></p>
-                    <p class="font-normal w-[70%] text-sm md:text-base">We are one body, we believe in one Christ and we are immersed into one love.</p>
+                    class="text-center bg-[url('./assets/star1.png')] relative w-[95vw] md:w-[35vw] h-[70vh] md:h-[70vh] bg-contain bg-center bg-no-repeat">
+                    <div
+                        class="text-black flex items-center flex-col absolute justify-center mx-auto top-[5%] md:top-[7%] left-[20%] w-[60%] h-full">
+                        <p class="text-lg md:text-xl font-semibold"><span class="text-[#13A2D1]">Love</span> binds us as
+                            a <span class="text-[#13A2D1]">family</span></p>
+                        <p class="font-normal w-[70%] text-sm md:text-base">We are one body, we believe in one Christ
+                            and we are immersed into one love.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Thumbnail section -->
     <section class="bg-white">

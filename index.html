@@ -13,15 +13,24 @@
 </head>
 
 <body class="max-w-[100vw]">
-    <!-- Header -->
-    <nav class="bg-[#13A2D1] text-white wrap-nav hidden md:block">
-        <div class="container mx-auto px-4 flex flex-col lg:flex-row justify-between items-center py-3">
-            <div class="text-xl font-bold mb-4 lg:mb-0">
-                <!-- Logo Placeholder -->
-                <span><img src="/assets/lymainlogo.png" alt="logo" class="object-cover w-52 md:h-auto"></span>
+    <!-- Navbar -->
+    <nav class="bg-[#13A2D1] text-white wrap-nav">
+        <div class="container mx-auto px-4 flex justify-between items-center py-3">
+            <!-- Logo -->
+            <div class="text-xl font-bold">
+                <span><img src="/assets/lymainlogo.png" alt="logo" class="object-cover w-40 md:w-52 h-auto"></span>
             </div>
-            <nav>
-                <ul class="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-8">
+
+            <!-- Hamburger Menu (For small/medium screens) -->
+            <div class="md:hidden">
+                <button id="hamburger" class="text-white focus:outline-none">
+                    <i class="bx bx-menu text-4xl"></i>
+                </button>
+            </div>
+
+            <!-- Nav Links (Hidden on small screens, visible on medium and larger screens) -->
+            <div class="hidden md:flex">
+                <ul class="flex space-x-4 lg:space-x-8">
                     <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
                     <li><a href="about.html" class="hover:text-gray-300">About</a></li>
                     <li><a href="#" class="hover:text-gray-300">Read for Freedom</a></li>
@@ -30,12 +39,25 @@
                     <li><a href="#" class="hover:text-gray-300">Activities</a></li>
                     <li><a href="#" class="hover:text-gray-300">Contact</a></li>
                 </ul>
-            </nav>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Visible on small screens) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[#13A2D1]">
+            <ul class="flex flex-col space-y-4 p-4">
+                <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+                <li><a href="#" class="hover:text-gray-300">Read for Freedom</a></li>
+                <li><a href="#" class="hover:text-gray-300">LY Mission Help</a></li>
+                <li><a href="#" class="hover:text-gray-300">LY Showcase</a></li>
+                <li><a href="#" class="hover:text-gray-300">Activities</a></li>
+                <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+            </ul>
         </div>
     </nav>
 
     <!-- Main Section -->
-    <main class="relative overflow-hidden bg-cover bg-center h-screen"
+    <main class="relative overflow-hidden bg-cover bg-center h-max md:h-screen py-12"
         style="background-image: url('./assets/general\ background.jpg');">
 
         <!-- Overlay -->
