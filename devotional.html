@@ -2,148 +2,148 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="output.css">
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="bg-[#13A2D1] text-white wrap-nav">
-        <div class="container mx-auto px-4 flex justify-between items-center py-3">
-            <!-- Logo -->
-            <div class="text-xl font-bold">
-                <span><img src="./assets/lymainlogo.png" alt="logo" class="object-cover w-40 md:w-52 h-auto"></span>
-            </div>
+  <!-- Navbar -->
+  <nav class="bg-[#13A2D1] text-white wrap-nav">
+    <div class="container mx-auto px-4 flex justify-between items-center py-3">
+      <!-- Logo -->
+      <div class="text-xl font-bold">
+        <span><img src="./assets/lymainlogo.png" alt="logo" class="object-cover w-40 md:w-52 h-auto"></span>
+      </div>
 
-            <!-- Hamburger Menu (For small/medium screens) -->
-            <div class="md:hidden">
-                <button id="hamburger" class="text-white focus:outline-none">
-                    <i class="bx bx-menu text-4xl"></i>
-                </button>
-            </div>
+      <!-- Hamburger Menu (For small/medium screens) -->
+      <div class="md:hidden">
+        <button id="hamburger" class="text-white focus:outline-none">
+          <i class="bx bx-menu text-4xl"></i>
+        </button>
+      </div>
 
-            <!-- Nav Links (Hidden on small screens, visible on medium and larger screens) -->
-            <div class="hidden md:flex">
-                <ul class="flex space-x-4 lg:space-x-8">
-                    <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
-                    <li><a href="about.html" class="hover:text-gray-300">About</a></li>
-                    <li><a href="founder.html" class="hover:text-gray-300">Meet the Founder</a></li>
-                    <li><a href="#" class="hover:text-gray-300">LY Mentorship</a></li>
-                    <li><a href="devotional.html" class="hover:text-gray-300">LY Devotional</a></li>
-                    <li><a href="#" class="hover:text-gray-300">LY Books</a></li>
-                    <li><a href="#" class="hover:text-gray-300">LY Resources</a></li>
-                    <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+      <!-- Nav Links (Hidden on small screens, visible on medium and larger screens) -->
+      <div class="hidden md:flex">
+        <ul class="flex space-x-4 lg:space-x-8">
+          <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+          <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+          <li><a href="founder.html" class="hover:text-gray-300">Meet the Founder</a></li>
+          <li><a href="#" class="hover:text-gray-300">LY Mentorship</a></li>
+          <li><a href="devotional.html" class="hover:text-gray-300">LY Devotional</a></li>
+          <li><a href="resources.html" class="hover:text-gray-300">LY Resources</a></li>
+          <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+      </div>
+    </div>
 
-        <!-- Mobile Menu (Visible on small screens) -->
-        <div id="mobile-menu" class="hidden md:hidden bg-[#13A2D1]">
-            <ul class="flex flex-col space-y-4 p-4">
-                <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
-                <li><a href="about.html" class="hover:text-gray-300">About</a></li>
-                <li><a href="founder.html" class="hover:text-gray-300">Meet the Founder</a></li>
-                <li><a href="#" class="hover:text-gray-300">LY Mentorship</a></li>
-                <li><a href="#" class="hover:text-gray-300">LY Devotional</a></li>
-                <li><a href="#" class="hover:text-gray-300">LY Books</a></li>
-                <li><a href="#" class="hover:text-gray-300">LY Resources</a></li>
-                <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <!-- Mobile Menu (Visible on small screens) -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#13A2D1]">
+      <ul class="flex flex-col space-y-4 p-4">
+        <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+        <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+        <li><a href="founder.html" class="hover:text-gray-300">Meet the Founder</a></li>
+        <li><a href="#" class="hover:text-gray-300">LY Mentorship</a></li>
+        <li><a href="#" class="hover:text-gray-300">LY Devotional</a></li>
+        <li><a href="resources.html" class="hover:text-gray-300">LY Resources</a></li>
+        <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <section class="bg-[#83CBE2] min-h-screen p-4">
-        <!-- First Section -->
-        <div class="mb-8">
-          <div class="flex flex-col lg:flex-row gap-5 items-start lg:items-center">
-            <h1 class="text-[4rem] sm:text-[5rem] md:text-[6rem] lg:text-[7rem] font-bold text-white mb-2">
-              JOIN US
-            </h1>
-            <p class="text-white mb-2 text-[2rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem]">
-              on our daily devotional platform <br> every Monday - Friday
-            </p>
-          </div>
-          
-          <div class="mb-2 flex items-center gap-7">
-            <!-- Icon (optional placeholder) -->
-            <img src="./assets/google meet.png" alt="Platform icon" class="w-[3rem] h-[3rem] sm:w-[4rem] sm:h-[4rem]">
-            <!-- Link -->
-            <a href="https://bit.ly/LYDevotionalTime" target="_blank" class="text-black font-bold underline text-[20px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
-              bit.ly/LYDevotionalTime
-            </a>
-          </div>
-          
-          <p class="text-black font-bold text-[20px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
-            8:30-9:00PM
-          </p>
+  <section class="bg-[#83CBE2] min-h-screen p-4">
+    <!-- First Section -->
+    <div class="mb-8">
+      <div class="flex flex-col lg:flex-row gap-5 items-start lg:items-center">
+        <h1 class="text-[4rem] sm:text-[5rem] md:text-[6rem] lg:text-[7rem] font-bold text-white mb-2">
+          JOIN US
+        </h1>
+        <p class="text-white mb-2 text-[2rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem]">
+          on our daily devotional platform <br> every Monday - Friday
+        </p>
+      </div>
+
+      <div class="mb-2 flex items-center gap-7">
+        <!-- Icon (optional placeholder) -->
+        <img src="./assets/google meet.png" alt="Platform icon" class="w-[3rem] h-[3rem] sm:w-[4rem] sm:h-[4rem]">
+        <!-- Link -->
+        <a href="https://bit.ly/LYDevotionalTime" target="_blank"
+          class="text-black font-bold underline text-[20px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
+          bit.ly/LYDevotionalTime
+        </a>
+      </div>
+
+      <p class="text-black font-bold text-[20px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
+        8:30-9:00PM
+      </p>
+    </div>
+
+    <!-- Second Section -->
+    <div class="mt-8">
+      <p class="text-[4rem] sm:text-[5rem] md:text-[6rem] lg:text-[7rem] text-white font-semibold mb-2">
+        What's prayer without the word?
+      </p>
+      <p class="text-[2rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] text-white mb-2">
+        Join us every Thursday for a special time of bible study or as we call it, <br> KINGDOM DIET
+      </p>
+
+      <div class="mb-2 flex items-center gap-7">
+        <!-- Icon (optional placeholder) -->
+        <img src="./assets/google meet.png" alt="Platform icon" class="w-[3rem] h-[3rem] sm:w-[4rem] sm:h-[4rem]">
+        <!-- Link -->
+        <a href="https://bit.ly/Kingdomdiet" target="_blank"
+          class="text-black font-bold underline text-[20px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
+          bit.ly/Kingdomdiet
+        </a>
+      </div>
+
+      <p class="text-black font-bold text-[20px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
+        8:30-9:30PM
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="bg-[#13A2D1]">
+    <div
+      class="container mx-auto lg:w-[80%] py-20 flex flex-col lg:flex-row items-center gap-10 lg:gap-0 justify-between space-y-10 lg:space-y-0">
+      <!-- Text Section -->
+      <div class="text-white text-center lg:text-left lg:basis-1/2">
+        <h1 class="text-3xl md:text-4xl font-bold mb-4">Contact Us</h1>
+        <div class="mb-4">
+          <i class='bx bx-map'></i> 70 Queens Street, Yaba, Lagos State
         </div>
-      
-        <!-- Second Section -->
-        <div class="mt-8">
-          <p class="text-[4rem] sm:text-[5rem] md:text-[6rem] lg:text-[7rem] text-white font-semibold mb-2">
-            What's prayer without the word?
-          </p>
-          <p class="text-[2rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] text-white mb-2">
-            Join us every Thursday for a special time of bible study or as we call it, <br> KINGDOM DIET
-          </p>
-      
-          <div class="mb-2 flex items-center gap-7">
-            <!-- Icon (optional placeholder) -->
-            <img src="./assets/google meet.png" alt="Platform icon" class="w-[3rem] h-[3rem] sm:w-[4rem] sm:h-[4rem]">
-            <!-- Link -->
-            <a href="https://bit.ly/Kingdomdiet" target="_blank" class="text-black font-bold underline text-[20px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
-              bit.ly/Kingdomdiet
-            </a>
-          </div>
-      
-          <p class="text-black font-bold text-[20px] sm:text-[30px] md:text-[35px] lg:text-[40px]">
-            8:30-9:30PM
-          </p>
+        <div class="mb-4">
+          <i class="bx bx-envelope"></i> lovedyoungsters@gmail.com
         </div>
-      </section>      
+        <div class="mb-4">
+          <i class="bx bx-phone"></i> +234 906 8450 108
+        </div>
+        <!-- Social Icons -->
+        <div class="flex justify-center lg:justify-start space-x-4 mt-4">
+          <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-youtube"></i></a>
+          <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <!-- Image Section -->
+      <div class="flex justify-center items-center lg:basis-1/2">
+        <img src="./assets/lymainlogo.png" alt="Heart" class="w-full max-w-xs md:max-w-sm lg:max-w-md h-auto">
+      </div>
+    </div>
 
     <!-- Footer -->
-    <section class="bg-[#13A2D1]">
-        <div
-            class="container mx-auto lg:w-[80%] py-20 flex flex-col lg:flex-row items-center gap-10 lg:gap-0 justify-between space-y-10 lg:space-y-0">
-            <!-- Text Section -->
-            <div class="text-white text-center lg:text-left lg:basis-1/2">
-                <h1 class="text-3xl md:text-4xl font-bold mb-4">Contact Us</h1>
-                <div class="mb-4">
-                    <i class='bx bx-map'></i> 70 Queens Street, Yaba, Lagos State
-                </div>
-                <div class="mb-4">
-                    <i class="bx bx-envelope"></i> lovedyoungsters@gmail.com
-                </div>
-                <div class="mb-4">
-                    <i class="bx bx-phone"></i> +234 906 8450 108
-                </div>
-                <!-- Social Icons -->
-                <div class="flex justify-center lg:justify-start space-x-4 mt-4">
-                    <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-facebook"></i></a>
-                    <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-instagram"></i></a>
-                    <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-youtube"></i></a>
-                    <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-twitter"></i></a>
-                    <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-whatsapp"></i></a>
-                </div>
-            </div>
-
-            <!-- Image Section -->
-            <div class="flex justify-center items-center lg:basis-1/2">
-                <img src="./assets/lymainlogo.png" alt="Heart" class="w-full max-w-xs md:max-w-sm lg:max-w-md h-auto">
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <div class="text-center text-white mt-10">
-            <p class="text-sm py-5">Copyright © 2022 - <strong>Loved Youngsters</strong> - All rights reserved.</p>
-        </div>
-    </section>
-    <script src="scripts.js"></script>
+    <div class="text-center text-white mt-10">
+      <p class="text-sm py-5">Copyright © 2022 - <strong>Loved Youngsters</strong> - All rights reserved.</p>
+    </div>
+  </section>
+  <script src="scripts.js"></script>
 </body>
 
 </html>
