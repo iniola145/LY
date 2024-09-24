@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="bg-[#13A2D1] text-white wrap-nav">
+        <div class="container mx-auto px-4 flex justify-between items-center py-3">
+            <!-- Logo -->
+            <div class="text-xl font-bold">
+                <span><img src="./assets/lymainlogo.png" alt="logo" class="object-cover w-40 md:w-52 h-auto"></span>
+            </div>
+
+            <!-- Hamburger Menu (For small/medium screens) -->
+            <div class="md:hidden">
+                <button id="hamburger" class="text-white focus:outline-none">
+                    <i class="bx bx-menu text-4xl"></i>
+                </button>
+            </div>
+
+            <!-- Nav Links (Hidden on small screens, visible on medium and larger screens) -->
+            <div class="hidden md:flex">
+                <ul class="flex space-x-4 lg:space-x-8">
+                    <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+                    <li><a href="founder.html" class="hover:text-gray-300">Meet the Founder</a></li>
+                    <li><a href="mentorship.html" class="hover:text-gray-300">LY Mentorship</a></li>
+                    <li><a href="devotional.html" class="hover:text-gray-300">LY Devotional</a></li>
+                    <li><a href="resources.html" class="hover:text-gray-300">LY Resources</a></li>
+                    <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Visible on small screens) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[#13A2D1]">
+            <ul class="flex flex-col space-y-4 p-4">
+                <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+                <li><a href="founder.html" class="hover:text-gray-300">Meet the Founder</a></li>
+                <li><a href="mentorship.html" class="hover:text-gray-300">LY Mentorship</a></li>
+                <li><a href="devotional.html" class="hover:text-gray-300">LY Devotional</a></li>
+                <li><a href="resources.html" class="hover:text-gray-300">LY Resources</a></li>
+                <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="flex flex-col mx-auto md:flex-row justify-center items-center gap-8 p-6 md:p-12">
+        <!-- Card 1 -->
+        <div
+          class="bg-[#00a3c7] w-[90%] md:w-[45%] lg:w-[35%] h-[450px] relative rounded-lg shadow-lg p-8 flex flex-col justify-between items-center text-white">
+          <!-- Top Icons and Title -->
+          <div class="flex items-center justify-center space-x-4">
+            <!-- Icon Left -->
+            <div class="text-5xl md:text-6xl lg:text-7xl absolute top-0 left-2">♦</div>
+            <!-- Title -->
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold tracking-wider">FUN FACT</h2>
+            <!-- Icon Right -->
+            <div class="text-5xl md:text-6xl lg:text-7xl absolute top-0 right-2">♠</div>
+          </div>
+      
+          <!-- Fun Fact Text -->
+          <p class="text-center mt-6 leading-relaxed text-lg md:text-xl lg:text-2xl">
+            Do you know that the beauty of mentorship is that someone has gone through the phase(s) of life you’re
+            currently trying to navigate and they get to be a guide. Providing you with the answers you need to get
+            it right with minimal mistakes.
+          </p>
+      
+          <!-- Bottom Icons -->
+          <div class="flex items-center justify-center space-x-4 mt-8">
+            <!-- Icon Left -->
+            <div class="text-5xl md:text-6xl lg:text-7xl absolute bottom-0 left-2">♣</div>
+            <!-- Icon Right -->
+            <div class="text-5xl md:text-6xl lg:text-7xl absolute bottom-0 right-2">♥</div>
+          </div>
+        </div>
+      
+        <!-- Card 2 -->
+        <div
+          class="bg-[#00a3c7] w-[90%] md:w-[45%] lg:w-[35%] h-[450px] relative rounded-lg shadow-lg p-8 flex flex-col justify-between items-center text-white">
+          <!-- Top Icons and Title -->
+          <div class="flex items-center justify-center space-x-4">
+            <!-- Icon Left -->
+            <div class="text-5xl md:text-6xl lg:text-7xl absolute top-0 left-2">♦</div>
+            <!-- Title -->
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold tracking-wider">FUN FACT</h2>
+            <!-- Icon Right -->
+            <div class="text-5xl md:text-6xl lg:text-7xl absolute top-0 right-2">♠</div>
+          </div>
+      
+          <!-- Fun Fact Text -->
+          <p class="text-center mt-6 leading-relaxed text-lg md:text-xl lg:text-2xl">
+            Do you know that mentorship provides the following in your own journey:
+            <br>
+            <br>
+            Ease<br>
+            Speed<br>
+            Clarity
+          </p>
+      
+          <!-- Bottom Icons -->
+          <div class="flex items-center justify-center space-x-4 mt-8">
+            <!-- Icon Left -->
+            <div class="text-5xl md:text-6xl lg:text-7xl absolute bottom-0 left-2">♣</div>
+            <!-- Icon Right -->
+            <div class="text-5xl md:text-6xl lg:text-7xl absolute bottom-0 right-2">♥</div>
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Section Start -->
+    <section class="mx-auto w-[90%] p-6 my-12 border-4 border-solid border-[#00A3C7]">
+        <p class="mt-2 text-lg font-bold">
+            <span class="text-[#00A3C7]">LOVED YOUNGSTERS</span> group mentorship is a mentorship platform designed to meet teenage needs, ranging from
+            <span class="text-[#00A3C7]">SPIRITUAL</span> to <span class="text-[#00A3C7]">EMOTIONAL</span> and
+            <span class="text-[#00A3C7]">ACADEMIC</span> needs.
+        </p>
+
+        <!-- What You Get Section -->
+        <h2 class="mt-6 text-lg font-bold">What you get with <span class="text-[#00A3C7]">LY
+                MENTORSHIP</span></h2>
+        <ul class="mt-2 list-disc ml-6 font-bold">
+            <li>Access to LY courses</li>
+            <li>Weekly bible study</li>
+            <li>
+                <span class="text-[#00A3C7]">LY HOUSES</span> - Our accountability group structure with a designated
+                <span class="text-[#00A3C7]">HOUSE PASTOR/MENTOR</span> who you have access to.
+            </li>
+            <li>A community of <span class="text-[#00A3C7]">CHRISTIAN</span> friends who are heading the same direction
+                as you.</li>
+        </ul>
+
+        <!-- Signs Section -->
+        <h2 class="mt-8 text-lg font-bold">Signs you need to become a loved youngster.</h2>
+        <ul class="mt-2 list-disc ml-6 font-bold">
+            <li>You don’t know who you are.</li>
+            <li>You don’t know why you’re on the earth.</li>
+            <li>You’re dealing with trauma and pain</li>
+            <li>You don’t have a community of Christian friends</li>
+            <li>You’re struggling to pray and understand this Christian faith</li>
+            <li>You have questions about Jesus and His nature</li>
+            <li>You’re struggling to love people</li>
+            <li>You don’t think you’re worthy, or useful to anyone or anything.</li>
+            <li>You’re struggling with addictions</li>
+        </ul>
+    </section>
+
+    <section class="py-10">
+        <div class="w-[80%] lg:w-[65%] mx-auto py-8 px-6 md:px-12 border border-solid border-[#3b3b3b] space-y-7">
+            <p class="text-xl md:text-2xl font-bold"><span class="text-[#00A3C7]">SIGN UP</span> AND BECOME A <span class="text-[#00A3C7]">LOVED YOUNGSTER</span></p>
+            <p class="text-xl md:text-2xl font-bold">HEY <span class="text-[#00A3C7]">TEEN</span>,</p>
+            <p class="text-xl md:text-2xl font-bold">IN SEARCH OF A COMMUNITY OF BELIEVERS WHO ARE BOLD ABOUT THEIR FAITH AND UNASHAMED OF THEIR WALK WITH GOD?</p>
+            <p class="text-xl md:text-2xl font-bold">WHAT ARE YOU WAITING FOR?</p>
+            
+            <!-- Flex Container with responsiveness -->
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="w-full md:w-[50%] text-xl md:text-2xl font-bold text-center md:text-left mb-4 md:mb-0">
+                    HIT THE <span class="text-[#00A3C7]">BUTTON</span> AND SIGN UP TO BECOME ONE OF US, WE'RE WAITING
+                </p>
+                <button class="bg-[#00A3C7] text-white font-bold px-12 md:px-16 py-4 md:py-5 rounded-lg hover:bg-blue-600 duration-700">
+                    SIGN UP
+                </button>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <section class="text-center py-8 bg-[#00A3C7] my-24">
+        <h2 class="text-white text-2xl md:text-3xl font-bold">BROWSE OUR TRANSFORMATIVE COURSES</h2>
+        <p class="text-white text-xl md:text-2xl font-bold mt-2">THAT LEAD YOU INTO WHOLENESS</p>
+    
+        <!-- Cards Container -->
+        <div class="flex flex-wrap justify-center gap-8 mt-8">
+            <!-- Single Card Start -->
+            <div class="bg-white rounded-lg shadow-lg max-w-xs w-full md:w-1/2 lg:w-1/5">
+                <img class="w-full rounded-t-lg" src="./assets/Beige and White Simple Course Workbook Cover 3.png" alt="Journey to Wholeness Image">
+                <div class="p-4">
+                    <h3 class="text-gray-600 font-bold text-lg">JOURNEY TO WHOLENESS</h3>
+                    <p class="text-gray-500 text-sm mt-1">FOR TEENS</p>
+                    <hr class="my-4 border-gray-300">
+                    <p class="text-gray-400 text-xs">BY ANGOLAV</p>
+                </div>
+            </div>
+            <!-- Single Card End -->
+    
+            <!-- Duplicate Card Start -->
+            <div class="bg-white rounded-lg shadow-lg max-w-xs w-full md:w-1/2 lg:w-1/5">
+                <img class="w-full rounded-t-lg" src="./assets/Beige and White Simple Course Workbook Cover 3.png" alt="Journey to Wholeness Image">
+                <div class="p-4">
+                    <h3 class="text-gray-600 font-bold text-lg">JOURNEY TO WHOLENESS</h3>
+                    <p class="text-gray-500 text-sm mt-1">FOR TEENS</p>
+                    <hr class="my-4 border-gray-300">
+                    <p class="text-gray-400 text-xs">BY ANGOLAV</p>
+                </div>
+            </div>
+            <!-- Duplicate Card End -->
+    
+            <!-- Duplicate Card Start -->
+            <div class="bg-white rounded-lg shadow-lg max-w-xs w-full md:w-1/2 lg:w-1/5">
+                <img class="w-full rounded-t-lg" src="./assets/Beige and White Simple Course Workbook Cover 3.png" alt="Journey to Wholeness Image">
+                <div class="p-4">
+                    <h3 class="text-gray-600 font-bold text-lg">JOURNEY TO WHOLENESS</h3>
+                    <p class="text-gray-500 text-sm mt-1">FOR TEENS</p>
+                    <hr class="my-4 border-gray-300">
+                    <p class="text-gray-400 text-xs">BY ANGOLAV</p>
+                </div>
+            </div>
+            <!-- Duplicate Card End -->
+    
+            <!-- Duplicate Card Start -->
+            <div class="bg-white rounded-lg shadow-lg max-w-xs w-full md:w-1/2 lg:w-1/5">
+                <img class="w-full rounded-t-lg" src="./assets/Beige and White Simple Course Workbook Cover 3.png" alt="Journey to Wholeness Image">
+                <div class="p-4">
+                    <h3 class="text-gray-600 font-bold text-lg">JOURNEY TO WHOLENESS</h3>
+                    <p class="text-gray-500 text-sm mt-1">FOR TEENS</p>
+                    <hr class="my-4 border-gray-300">
+                    <p class="text-gray-400 text-xs">BY ANGOLAV</p>
+                </div>
+            </div>
+            <!-- Duplicate Card End -->
+        </div>
+    </section>
+    
+
+
+    <!-- Footer -->
+    <section class="bg-[#13A2D1]">
+        <div
+            class="container mx-auto lg:w-[80%] py-20 flex flex-col lg:flex-row items-center gap-10 lg:gap-0 justify-between space-y-10 lg:space-y-0">
+            <!-- Text Section -->
+            <div class="text-white text-center lg:text-left lg:basis-1/2">
+                <h1 class="text-3xl md:text-4xl font-bold mb-4">Contact Us</h1>
+                <div class="mb-4">
+                    <i class='bx bx-map'></i> 70 Queens Street, Yaba, Lagos State
+                </div>
+                <div class="mb-4">
+                    <i class="bx bx-envelope"></i> lovedyoungsters@gmail.com
+                </div>
+                <div class="mb-4">
+                    <i class="bx bx-phone"></i> +234 906 8450 108
+                </div>
+                <!-- Social Icons -->
+                <div class="flex justify-center lg:justify-start space-x-4 mt-4">
+                    <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-youtube"></i></a>
+                    <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="text-white hover:text-gray-200"><i class="bx bxl-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <!-- Image Section -->
+            <div class="flex justify-center items-center lg:basis-1/2">
+                <img src="./assets/lymainlogo.png" alt="Heart" class="w-full max-w-xs md:max-w-sm lg:max-w-md h-auto">
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="text-center text-white mt-10">
+            <p class="text-sm py-5">Copyright © 2022 - <strong>Loved Youngsters</strong> - All rights reserved.</p>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
